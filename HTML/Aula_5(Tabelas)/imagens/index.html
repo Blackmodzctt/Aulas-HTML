@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <h1>Construindo uma Tabela</h1>
+    <!--
+        table = tabela
+        table row = linha de tabela
+        table data = dado da célula    
+    -->
+    <!--Alt + Shift + F = Arruma as linhas do código-->
+    <table border="1" width="25%">
+        <tr>
+            <td>Nome</td>
+            <td>Sobrenome</td>
+            <td>Gosto Musical</td>
+        </tr>
+        <tr>
+            <td>Guilherme</td>
+            <td>Almeida</td>
+            <td>BoomBap</td>
+        </tr>
+        <tr>
+            <td>Cauã</td>
+            <td>Rodrigues</td>
+            <td>HipHop</td>
+        </tr>
+        <tr>
+            <td>Giovanna</td>
+            <td>Luna</td>
+            <td>Eclético</td>
+        </tr>
+        <p>separando tabelas</p>
+        <!--
+            Table
+            Caption
+            Thead
+                th, tr, td
+            tbody
+                tr, th, td
+            tfoot
+                tr, th, td
+
+            mesclar coluna = colspan
+            mesclar linha = rowspan
+        -->
+        <table border="1" width="25%">
+            <caption>Dinheiro poupado em 2026</caption>
+            <!--caption = titulo da tabela-->
+            
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th>Dinheiro</th>
+                    <th>Mesclando Células</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>R$ 0,50</td>
+                    <td>R$ 10000000,00</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>R$ 0,90</td>
+                    <td>R$ 222222222222222222222,00</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td colspan="2">Mesclando</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+
+
+    </table>
+</body>
+
+</html>

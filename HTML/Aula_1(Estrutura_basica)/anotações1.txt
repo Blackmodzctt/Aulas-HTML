@@ -1,0 +1,8 @@
+<html>
+</html>
+<br/>
+toda tag tem seu atributo
+html= linguagem de marcação de hipertexto
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Trabalhando com Formulários</h1>
+    <p>Formulário Simples</p>
+    <!--Form = Cria o formulário
+        input type = define o valor do atributo (text por exemplo)-->
+    <!--Id = identificador do campo
+        Action = Define a ação que aconetece quando envia as info
+        ctrl + shift + p = liga o texto a uma tag
+        label = Um elemento HTML <label> representa uma legenda para um item em uma interface de usuário. Ele pode estar associado com um elemento de controle, colocando este dentro do elemento label, ou usando o atributo for. Tal controle é chamado o controle etiquetado do elemento etiqueta. Um input pode ser associado a diversas etiquetas (<label>s).-->
+
+    <form action="cadastro.php" method="post">
+        <p><label for="Inome">Nome:</label>
+            <input type="text" name="Nome" id="Inome">
+        </p>
+        <p><label for="Isobrenome">Sobrenome:</label>
+            <input type="text" name="Sobrenome" id="Isobrenome">
+        </p>
+        <input type="submit" value="Criar Conta">
+    </form>
+
+    <h1>Formulário de casdastro</h1>
+
+    <form action="" method="post">
+        <p><label for="Inomes">Nome:</label>
+            <input type="text" name="Nome" id="Inomes">
+        </p>
+        <p><label for="Iemail">Email:</label>
+            <input type="email" name="Email" id="Iemail">
+        </p>
+        <p><label for="Isenha">Senha:</label>
+            <input type="password" name="Senha" id="Isenha">
+        </p>
+        <!--Botão de opção(radio), só permiti marcar uma opção-->
+        <p> Cor favorita
+            <input type="radio" name="ivermelho" id="ivermelho">
+            <label for="ivermelho">Vermelho</label>
+            <input type="radio" name="iazul" id="iazul">
+            <label for="iazul">Azul</label>            
+        </p>
+        <p>
+            <input type="checkbox" name="" id="">
+            <select name="" id="">
+                <option value="SP">São Paulo</option>
+                <option value="">Corinthians</option>
+            </select>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            
+        </p>
+
+
+
+
+
+
+        <input type="submit" value="Criar conta">
+    </form>
+
+
+
+</body>
+
+</html>

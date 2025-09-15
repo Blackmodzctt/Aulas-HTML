@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos textuais</title>
+    <style>
+        aside {
+            background-color: black;
+            color: white;
+        }
+        footer {
+            background-color: red;
+            color: black;
+        }
+        #select {
+            background-color: brown;
+            text-align: center;
+        }
+        main {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!--Estrutura semantica
+        <html>
+            <head>
+
+            </head
+            <body>
+                <header>
+                    <nav>
+                <main>
+                    <section>
+                    <article>
+                    <aside>
+                <footer>
+            </body>
+        </html>                                            
+    -->
+    <header> <!--Cabeçalho da página-->
+        <h1>Blog de Tecnologia</h1>
+        <p>Noticías e artigos sobre o mundo tech</p>
+        <nav> <!--nav: Área de navegação-->
+            <a href="#">Página Inicial</a>
+            <a href="#">Artigos</a>
+            <a href="#">Tutoriais</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main> <!--main: conteúdo principal da página (só tem um por página)-->
+        <section> <!--section: Define uma seção (Agrupa conteúdos relacionados)-->
+            <article> <!--article: conteúdo independente-->
+                <h3>O futuro da inteligência artificial</h3>
+                <p>A inteligência artificial está transformando várias áreas, desde saúde a educação.</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <article>
+                <h3>Dicas para aprender programação</h3>
+                <p>Se você está interesadi em aprender programação, aqui estão algumas dicas que podem te ajudar</p>
+                <a href="#">Ler mais</a>
+            </article>
+        </section>
+        <div id="select">
+            <h4>Alguma coisa aí</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa optio nostrum ut tempora tenetur laborum magni excepturi iure maiores quis voluptate qui enim cumque, similique aliquam in aut a inventore.</p>
+        </div>
+        <aside> <!--Define um conteudo lateral-->
+            <h2>Sobre o autor</h2>
+            <p>Meu nome é Guilherme e sou estudante de desnvolvimento web</p>
+        </aside>
+    </main>
+    <footer> <!--Rodapé-->
+        <p> &copy;2025 Blog de Tecnologia | Todos os direitos reservados.<br> Desenvolvido por: Guilherme Ventura</p> <!--adiciona o símbolo do copyright-->
+    </footer>
+    
+    
+</body>
+</html>
