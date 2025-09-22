@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap');
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+/*pegamos o code no site da google e importa pelo link*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*altera a familia de fonte (trabalhe com 2 fontes*/ 
+}
+
+h1, h2 {
+    /*Lista de seletores*/
+    font-family: 'Times New Roman', Times, serif
+}
+
+.box1 {
+    background-color: blueviolet;
+    width: 500px;
+    height: 230px;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+      }
+
+
+.box2 {
+    background-color: chartreuse;
+    width: 500px;
+    height: 620px;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-family: "Bitcount Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0.5,
+      "ELSH" 0,
+      "ELXP" 0,
+      "SZP1" 0,
+      "SZP2" 0,
+      "XPN1" 0,
+      "XPN2" 0,
+      "YPN1" 0,
+      "YPN2" 0;
+}
+
+.box3 {
+    background-color: crimson;
+    width: 500px;
+    height: 370px;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-family: "Libertinus Keyboard", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*medidas de fontes
+    (px, cm, mm, em, vw, vh, %)
+*/
+.p1 {
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: dotted;
+    text-indent: 30px; /*dá um parágrafo*/
+}
+
+.p2 {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 2em ; /*em = multiplica o tamanho de 16px que é o padrão de parágrafo, multiplica por 2*/
+}
+
